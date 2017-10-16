@@ -1,0 +1,6 @@
+Files="./*/install*"
+
+for f in $Files
+do
+ bash $f
+done
